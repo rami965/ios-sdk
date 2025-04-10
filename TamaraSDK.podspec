@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.author           = { "Tamara" => "contact@tamara.co" }
   s.source           = { :git => "https://github.com/rami965/ios-sdk.git", :tag => "#{s.version}"  }
   s.source_files = "TamaraSDK/**/*"
-  s.exclude_files = "TamaraSDK/*.plist"
+  s.exclude_files = "TamaraSDK/**/*.plist"
   s.dependency 'Moya'
   s.platform = :ios, "11.0"
   s.swift_version = "5.0"
