@@ -7,9 +7,9 @@
 
 import Foundation
 
-open struct CheckoutSession: Codable {
-    let checkout_url: String?
-    let order_id: String?
+public struct CheckoutSession: Codable {
+    public let checkout_url: String?
+    public let order_id: String?
     
     init(jsonData: Data) {
         let decoder = JSONDecoder()
