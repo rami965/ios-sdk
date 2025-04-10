@@ -7,7 +7,7 @@
 
 import Foundation
 
-public struct CheckoutSession: Codable {
+open struct CheckoutSession: Codable {
     let checkout_url: String?
     let order_id: String?
     
